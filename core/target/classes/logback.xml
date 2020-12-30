@@ -1,0 +1,20 @@
+<configuration>
+    <!-- logback.xml - este fisierul care ne permite sa configuram modul de afisare-->
+
+    <appender class="ch.qos.logback.core.ConsoleAppender" name="STDOUT">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <pattern> - formatarea mesajului afisat -->
+            <pattern>[%date] [%thread] [%-5level] [%logger{40}] - %message%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- logger este ceea ce se afiseaza in consola -->
+    <logger name="academy.learnprogramming" level="INFO"/>
+    <logger name="academy.learnprogramming" level="DEBUG"/>
+    <logger name="org.springframework" level="DEBUG"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
