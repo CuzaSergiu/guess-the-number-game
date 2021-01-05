@@ -1,0 +1,12 @@
+<thlogic>
+    <attr sel="#footerId"
+          th:fragment="footerFragment"/>
+
+    <!--    literal substitution in Thymeleaf | text + expresion |
+    -it will process the expresion but leave the text as it is -->
+    <attr sel="#created-by"
+          th:text="|#{game.createdBy} Cuza Sergiu|"/>
+
+
+
+</thlogic>
