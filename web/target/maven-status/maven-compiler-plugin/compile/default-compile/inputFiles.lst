@@ -3,6 +3,7 @@ D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\le
 D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\service\GameService.java
 D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\util\ViewNames.java
 D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\config\WebConfig.java
+D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\interceptor\RequestInterceptor.java
 D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\util\AttributeNames.java
 D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\WebMain.java
 D:\SDA\Spring\Spring5-Example\guess-the-number-game\web\src\main\java\academy\learnprogramming\service\GameServiceImpl.java

@@ -44,6 +44,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
     // == public methods ==
     @Override
     public String getMainMessage() {
+        // new return using message generator internationalization ( message.properties )
         return getMessage(MAIN_MESSAGE, game.getSmallest(), game.getBiggest());
 
         // Old return
@@ -57,7 +58,7 @@ public class MessageGeneratorImpl implements MessageGenerator {
     @Override
     public String getResultMessage() {
 
-        // new return using message.properties file
+        // new return using message generator internationalization ( message.properties )
         if (game.isGameWon()) {
             return getMessage(WIN, game.getNumber());
         } else if (game.isGameLost()) {
